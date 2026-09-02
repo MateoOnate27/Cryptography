@@ -45,7 +45,7 @@ cd Cryptography
 ### 2. Run the Interactive Trace (Step-by-Step Execution)
 To inspect intermediate states across all 16 Feistel rounds, round subkeys, and the final register swap:
 
-**python des.py**
+**python Lab#1.py**
 
 Expected terminal output:
 
