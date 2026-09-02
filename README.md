@@ -7,7 +7,7 @@ The design strictly avoids external cryptographic libraries or third-party depen
 
 ## Repository Structure
 
-* `Lab#1.py`: Source code containing the core DES implementation (permutations, key schedule, Feistel network, S-Boxes, and encryption/decryption routines).
+* `Lab1.py`: Source code containing the core DES implementation (permutations, key schedule, Feistel network, S-Boxes, and encryption/decryption routines).
 * `test_des.py`: Automated unit test suite verifying mathematical accuracy against standard NIST test vectors.
 * `README.md`: Setup, architecture overview, and execution guide.
 
@@ -45,7 +45,7 @@ cd Cryptography
 ### 2. Run the Interactive Trace (Step-by-Step Execution)
 To inspect intermediate states across all 16 Feistel rounds, round subkeys, and the final register swap:
 
-**python Lab#1.py**
+**python Lab1.py**
 
 Expected terminal output:
 
