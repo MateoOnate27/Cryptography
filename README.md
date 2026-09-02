@@ -7,7 +7,7 @@ The design strictly avoids external cryptographic libraries or third-party depen
 
 ## Repository Structure
 
-* `des.py`: Source code containing the core DES implementation (permutations, key schedule, Feistel network, S-Boxes, and encryption/decryption routines).
+* `Lab#1.py`: Source code containing the core DES implementation (permutations, key schedule, Feistel network, S-Boxes, and encryption/decryption routines).
 * `test_des.py`: Automated unit test suite verifying mathematical accuracy against standard NIST test vectors.
 * `README.md`: Setup, architecture overview, and execution guide.
 
