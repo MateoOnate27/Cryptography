@@ -1,0 +1,198 @@
+{
+  "created_utc": "2026-09-09T01:55:36.653065+00:00",
+  "machine": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
+    "physical_cores": 9,
+    "logical_cores": 9,
+    "affinity_cores": 9,
+    "cpu_quota": 8.0,
+    "available_workers": 8,
+    "system": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "python": "3.12.14"
+  },
+  "settings": {
+    "bits": [
+      16
+    ],
+    "repetitions": 3,
+    "workers": [
+      1,
+      2,
+      4
+    ],
+    "origin": "entorno-asistente",
+    "fixed_effective": "12695BC9B7B7F8",
+    "target_position": "ultima clave: 2**n - 1",
+    "plaintext": "0123456789ABCDEF",
+    "source_sha256": "27653026ca7d0a549c3bfec2c4679e9b1f93456ec12e55d9115d0ef2476e12c1"
+  },
+  "runs": [
+    {
+      "bits": 16,
+      "workers": 1,
+      "repetition": 1,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65536,
+      "seconds": 38.39590566800052,
+      "keys_per_second": 1706.8486563820857,
+      "worker_tested": "[65536]"
+    },
+    {
+      "bits": 16,
+      "workers": 2,
+      "repetition": 1,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65088,
+      "seconds": 21.345666236999932,
+      "keys_per_second": 3049.237221145079,
+      "worker_tested": "[32320, 32768]"
+    },
+    {
+      "bits": 16,
+      "workers": 4,
+      "repetition": 1,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65472,
+      "seconds": 12.092176027000278,
+      "keys_per_second": 5414.4100990433335,
+      "worker_tested": "[16320, 16384, 16384, 16384]"
+    },
+    {
+      "bits": 16,
+      "workers": 1,
+      "repetition": 2,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65536,
+      "seconds": 39.019379501,
+      "keys_per_second": 1679.575657996315,
+      "worker_tested": "[65536]"
+    },
+    {
+      "bits": 16,
+      "workers": 2,
+      "repetition": 2,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65472,
+      "seconds": 22.930027958999744,
+      "keys_per_second": 2855.29525376366,
+      "worker_tested": "[32704, 32768]"
+    },
+    {
+      "bits": 16,
+      "workers": 4,
+      "repetition": 2,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 64960,
+      "seconds": 12.707151971999338,
+      "keys_per_second": 5112.081774353661,
+      "worker_tested": "[16000, 16192, 16384, 16384]"
+    },
+    {
+      "bits": 16,
+      "workers": 1,
+      "repetition": 3,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65536,
+      "seconds": 38.110035315999994,
+      "keys_per_second": 1719.6520406394266,
+      "worker_tested": "[65536]"
+    },
+    {
+      "bits": 16,
+      "workers": 2,
+      "repetition": 3,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65536,
+      "seconds": 22.806492562999665,
+      "keys_per_second": 2873.567683367629,
+      "worker_tested": "[32768, 32768]"
+    },
+    {
+      "bits": 16,
+      "workers": 4,
+      "repetition": 3,
+      "space_size": 65536,
+      "candidate": 65535,
+      "key_hex": "133457799BBFFEFE",
+      "ciphertext_hex": "2D7541213B8062E4",
+      "tested": 65216,
+      "seconds": 12.25758924099955,
+      "keys_per_second": 5320.458918778546,
+      "worker_tested": "[16384, 16256, 16192, 16384]"
+    }
+  ],
+  "summary": [
+    {
+      "bits": 16,
+      "workers": 1,
+      "repetitions": 3,
+      "mean_seconds": 38.50844016166684,
+      "stdev_seconds": 0.46499969988902506,
+      "mean_tested": 65536,
+      "keys_per_second": 1701.8606758639291,
+      "speedup": 1.0,
+      "efficiency": 1.0
+    },
+    {
+      "bits": 16,
+      "workers": 2,
+      "repetitions": 3,
+      "mean_seconds": 22.360728919666446,
+      "stdev_seconds": 0.8812374457675018,
+      "mean_tested": 65365.333333333336,
+      "keys_per_second": 2923.220149404163,
+      "speedup": 1.7221460132186635,
+      "efficiency": 0.8610730066093317
+    },
+    {
+      "bits": 16,
+      "workers": 4,
+      "repetitions": 3,
+      "mean_seconds": 12.352305746666389,
+      "stdev_seconds": 0.3182408923538485,
+      "mean_tested": 65216,
+      "keys_per_second": 5279.662059660427,
+      "speedup": 3.117510281192595,
+      "efficiency": 0.7793775702981488
+    }
+  ],
+  "des56": {
+    "rate_keys_per_second": 5279.662059660427,
+    "worst": {
+      "seconds": 13648145131956.13,
+      "hours": 3791151425.54337,
+      "days": 157964642.73097375,
+      "years": 432483.6214400376
+    },
+    "average": {
+      "seconds": 6824072565978.065,
+      "hours": 1895575712.771685,
+      "days": 78982321.36548688,
+      "years": 216241.8107200188
+    }
+  }
+}

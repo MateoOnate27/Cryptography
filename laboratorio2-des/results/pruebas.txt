@@ -1,0 +1,49 @@
+test_conversion_of_known_key (test_attacks.KeyspaceTests.test_conversion_of_known_key) ... ok
+test_invalid_spaces (test_attacks.KeyspaceTests.test_invalid_spaces) ... ok
+test_mapping_parity_uniqueness_and_fixed_bits (test_attacks.KeyspaceTests.test_mapping_parity_uniqueness_and_fixed_bits) ... ok
+test_partition_no_gaps_or_overlaps (test_attacks.KeyspaceTests.test_partition_no_gaps_or_overlaps) ... ok
+test_empty_and_invalid_intervals (test_attacks.SearchTests.test_empty_and_invalid_intervals) ... ok
+test_first_and_last_candidates (test_attacks.SearchTests.test_first_and_last_candidates) ... ok
+test_no_match_and_exclusive_end (test_attacks.SearchTests.test_no_match_and_exclusive_end) ... ok
+test_parallel_absent_key_searches_entire_range (test_attacks.SearchTests.test_parallel_absent_key_searches_entire_range) ... ok
+test_parallel_one_worker_and_invalid_worker_count (test_attacks.SearchTests.test_parallel_one_worker_and_invalid_worker_count) ... ok
+test_parallel_recovery (test_attacks.SearchTests.test_parallel_recovery) ... ok
+test_sequential_recovery_and_exact_count (test_attacks.SearchTests.test_sequential_recovery_and_exact_count) ... ok
+test_stop_signal_prevents_more_candidates (test_attacks.SearchTests.test_stop_signal_prevents_more_candidates) ... ok
+test_32_bloques_recuperados (test_des.PruebasBloqueDES.test_32_bloques_recuperados) ... ok
+test_avalancha_bit_efectivo_clave (test_des.PruebasBloqueDES.test_avalancha_bit_efectivo_clave) ... ok
+test_avalancha_texto (test_des.PruebasBloqueDES.test_avalancha_texto) ... ok
+test_cifrado_vector_conocido (test_des.PruebasBloqueDES.test_cifrado_vector_conocido) ... ok
+test_descifrado_vector_conocido (test_des.PruebasBloqueDES.test_descifrado_vector_conocido) ... ok
+test_longitudes_invalidas (test_des.PruebasBloqueDES.test_longitudes_invalidas) ... ok
+test_nucleo_e_intercambio_final (test_des.PruebasBloqueDES.test_nucleo_e_intercambio_final) ... ok
+test_paridad_no_cambia_cifrado (test_des.PruebasBloqueDES.test_paridad_no_cambia_cifrado) ... ok
+test_tipo_bytes_requerido (test_des.PruebasBloqueDES.test_tipo_bytes_requerido) ... ok
+test_bit_uno_es_el_mas_significativo (test_des.PruebasComponentesDES.test_bit_uno_es_el_mas_significativo) ... ok
+test_ejemplo_s1 (test_des.PruebasComponentesDES.test_ejemplo_s1) ... ok
+test_errores_de_permutacion (test_des.PruebasComponentesDES.test_errores_de_permutacion) ... ok
+test_expansion_sustitucion_y_funcion_f (test_des.PruebasComponentesDES.test_expansion_sustitucion_y_funcion_f) ... ok
+test_generacion_subclaves (test_des.PruebasComponentesDES.test_generacion_subclaves) ... ok
+test_ip_y_su_inversa (test_des.PruebasComponentesDES.test_ip_y_su_inversa) ... ok
+test_rotacion_circular (test_des.PruebasComponentesDES.test_rotacion_circular) ... ok
+test_salidas_sboxes_de_cuatro_bits (test_des.PruebasComponentesDES.test_salidas_sboxes_de_cuatro_bits) ... ok
+test_tablas_y_posiciones_de_paridad (test_des.PruebasComponentesDES.test_tablas_y_posiciones_de_paridad) ... ok
+test_una_ronda (test_des.PruebasComponentesDES.test_una_ronda) ... ok
+test_averages_speedup_and_real_work (test_metrics.MetricTests.test_averages_speedup_and_real_work) ... ok
+test_full_space_units_and_average (test_metrics.MetricTests.test_full_space_units_and_average) ... ok
+test_selected_workers (test_metrics.MetricTests.test_selected_workers) ... ok
+test_decryption_rejects_malformed_padding (test_modes.ModeTests.test_decryption_rejects_malformed_padding) ... ok
+test_different_ivs (test_modes.ModeTests.test_different_ivs) ... ok
+test_ecb_and_cbc_round_trips (test_modes.ModeTests.test_ecb_and_cbc_round_trips) ... ok
+test_error_propagation (test_modes.ModeTests.test_error_propagation) ... ok
+test_invalid_ciphertext_and_ivs (test_modes.ModeTests.test_invalid_ciphertext_and_ivs) ... ok
+test_modes_use_expected_chaining (test_modes.ModeTests.test_modes_use_expected_chaining) ... ok
+test_repeated_blocks (test_modes.ModeTests.test_repeated_blocks) ... ok
+test_example_and_full_block (test_modes.PaddingTests.test_example_and_full_block) ... ok
+test_invalid_padding (test_modes.PaddingTests.test_invalid_padding) ... ok
+test_many_lengths (test_modes.PaddingTests.test_many_lengths) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 2.152s
+
+OK

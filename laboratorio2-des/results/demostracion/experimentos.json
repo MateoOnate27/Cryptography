@@ -1,0 +1,227 @@
+{
+  "lab1": {
+    "key": "133457799BBCDFF1",
+    "plaintext": "0123456789ABCDEF",
+    "ciphertext": "85E813540F0AB405",
+    "decrypted": "0123456789ABCDEF",
+    "parity_valid": true,
+    "subkeys": [
+      "1B02EFFC7072",
+      "79AED9DBC9E5",
+      "55FC8A42CF99",
+      "72ADD6DB351D",
+      "7CEC07EB53A8",
+      "63A53E507B2F",
+      "EC84B7F618BC",
+      "F78A3AC13BFB",
+      "E0DBEBEDE781",
+      "B1F347BA464F",
+      "215FD3DED386",
+      "7571F59467E9",
+      "97C5D1FABA41",
+      "5F43B7F2E73A",
+      "BF918D3D3F0A",
+      "CB3D8B0E17F5"
+    ],
+    "trace": [
+      {
+        "round": 0,
+        "left": "CC00CCFF",
+        "right": "F0AAF0AA",
+        "subkey": "-"
+      },
+      {
+        "round": 1,
+        "left": "F0AAF0AA",
+        "right": "EF4A6544",
+        "subkey": "1B02EFFC7072"
+      },
+      {
+        "round": 2,
+        "left": "EF4A6544",
+        "right": "CC017709",
+        "subkey": "79AED9DBC9E5"
+      },
+      {
+        "round": 3,
+        "left": "CC017709",
+        "right": "A25C0BF4",
+        "subkey": "55FC8A42CF99"
+      },
+      {
+        "round": 4,
+        "left": "A25C0BF4",
+        "right": "77220045",
+        "subkey": "72ADD6DB351D"
+      },
+      {
+        "round": 5,
+        "left": "77220045",
+        "right": "8A4FA637",
+        "subkey": "7CEC07EB53A8"
+      },
+      {
+        "round": 6,
+        "left": "8A4FA637",
+        "right": "E967CD69",
+        "subkey": "63A53E507B2F"
+      },
+      {
+        "round": 7,
+        "left": "E967CD69",
+        "right": "064ABA10",
+        "subkey": "EC84B7F618BC"
+      },
+      {
+        "round": 8,
+        "left": "064ABA10",
+        "right": "D5694B90",
+        "subkey": "F78A3AC13BFB"
+      },
+      {
+        "round": 9,
+        "left": "D5694B90",
+        "right": "247CC67A",
+        "subkey": "E0DBEBEDE781"
+      },
+      {
+        "round": 10,
+        "left": "247CC67A",
+        "right": "B7D5D7B2",
+        "subkey": "B1F347BA464F"
+      },
+      {
+        "round": 11,
+        "left": "B7D5D7B2",
+        "right": "C5783C78",
+        "subkey": "215FD3DED386"
+      },
+      {
+        "round": 12,
+        "left": "C5783C78",
+        "right": "75BD1858",
+        "subkey": "7571F59467E9"
+      },
+      {
+        "round": 13,
+        "left": "75BD1858",
+        "right": "18C3155A",
+        "subkey": "97C5D1FABA41"
+      },
+      {
+        "round": 14,
+        "left": "18C3155A",
+        "right": "C28C960D",
+        "subkey": "5F43B7F2E73A"
+      },
+      {
+        "round": 15,
+        "left": "C28C960D",
+        "right": "43423234",
+        "subkey": "BF918D3D3F0A"
+      },
+      {
+        "round": 16,
+        "left": "43423234",
+        "right": "0A4CD995",
+        "subkey": "CB3D8B0E17F5"
+      }
+    ],
+    "first_f": "234AA9BB",
+    "avalanche_plain_bit": 64,
+    "avalanche_key_bit": 63,
+    "avalanche_plain_cipher": "28378E295BE22A84",
+    "avalanche_key_cipher": "DC2A5F2AB09AB768",
+    "avalanche_plain_distance": 37,
+    "avalanche_key_distance": 32
+  },
+  "lab2": {
+    "message_ascii": "ABCDEFGHABCDEFGHABCDEFGHABCDEFGH",
+    "key": "133457799BBCDFF1",
+    "plaintext_blocks_with_padding": [
+      "4142434445464748",
+      "4142434445464748",
+      "4142434445464748",
+      "4142434445464748",
+      "0808080808080808"
+    ],
+    "iv1": "0123456789ABCDEF",
+    "iv2": "FEDCBA9876543210",
+    "ecb_blocks": [
+      "0EE11BD2808EF0A1",
+      "0EE11BD2808EF0A1",
+      "0EE11BD2808EF0A1",
+      "0EE11BD2808EF0A1",
+      "FDF2E174492922F8"
+    ],
+    "cbc_iv1_blocks": [
+      "6732436C6B6D7FC7",
+      "8DE3F206177C743E",
+      "1884713AB1B23DE1",
+      "555F76AC0FA26E67",
+      "D1FCAE0B82B492DB"
+    ],
+    "cbc_iv2_blocks": [
+      "C89A8D8E30743B5E",
+      "318560ACD4A962BD",
+      "6E9DB3016C6BB24C",
+      "A1D76F29EA990BFC",
+      "09C0962E4C876D2C"
+    ],
+    "different_ivs_differ": true,
+    "error_bit": "primer bit de C2: byte 8, máscara 0x80",
+    "errors": {
+      "ECB": {
+        "ciphertext_bit_changes": 1,
+        "modified_ciphertext_blocks": [
+          "0EE11BD2808EF0A1",
+          "8EE11BD2808EF0A1",
+          "0EE11BD2808EF0A1",
+          "0EE11BD2808EF0A1",
+          "FDF2E174492922F8"
+        ],
+        "recovered_blocks": [
+          "4142434445464748",
+          "8F2CE89F5A6A902E",
+          "4142434445464748",
+          "4142434445464748"
+        ],
+        "changed_bits_per_block": [
+          0,
+          39,
+          0,
+          0
+        ],
+        "changed_plaintext_blocks": [
+          2
+        ]
+      },
+      "CBC": {
+        "ciphertext_bit_changes": 1,
+        "modified_ciphertext_blocks": [
+          "6732436C6B6D7FC7",
+          "0DE3F206177C743E",
+          "1884713AB1B23DE1",
+          "555F76AC0FA26E67",
+          "D1FCAE0B82B492DB"
+        ],
+        "recovered_blocks": [
+          "4142434445464748",
+          "D907656FB69F6C14",
+          "C142434445464748",
+          "4142434445464748"
+        ],
+        "changed_bits_per_block": [
+          0,
+          32,
+          1,
+          0
+        ],
+        "changed_plaintext_blocks": [
+          2,
+          3
+        ]
+      }
+    }
+  }
+}
