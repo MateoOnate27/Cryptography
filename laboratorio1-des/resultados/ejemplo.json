@@ -1,0 +1,32 @@
+{
+  "clave": "133457799BBCDFF1",
+  "texto": "0123456789ABCDEF",
+  "cifrado": "85E813540F0AB405",
+  "recuperado": "0123456789ABCDEF",
+  "paridad_correcta": true,
+  "s1_100101": 8,
+  "subclaves": [
+    "1B02EFFC7072",
+    "79AED9DBC9E5",
+    "55FC8A42CF99",
+    "72ADD6DB351D",
+    "7CEC07EB53A8",
+    "63A53E507B2F",
+    "EC84B7F618BC",
+    "F78A3AC13BFB",
+    "E0DBEBEDE781",
+    "B1F347BA464F",
+    "215FD3DED386",
+    "7571F59467E9",
+    "97C5D1FABA41",
+    "5F43B7F2E73A",
+    "BF918D3D3F0A",
+    "CB3D8B0E17F5"
+  ],
+  "texto_modificado": "0123456789ABCDEE",
+  "clave_modificada": "133457799BBCDFF3",
+  "cifrado_texto_modificado": "28378E295BE22A84",
+  "cifrado_clave_modificada": "DC2A5F2AB09AB768",
+  "avalancha_texto": 37,
+  "avalancha_clave": 32
+}

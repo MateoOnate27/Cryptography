@@ -1,0 +1,24 @@
+test_32_bloques_recuperados (test_des.PruebasBloqueDES.test_32_bloques_recuperados) ... ok
+test_avalancha_bit_efectivo_clave (test_des.PruebasBloqueDES.test_avalancha_bit_efectivo_clave) ... ok
+test_avalancha_texto (test_des.PruebasBloqueDES.test_avalancha_texto) ... ok
+test_cifrado_vector_conocido (test_des.PruebasBloqueDES.test_cifrado_vector_conocido) ... ok
+test_descifrado_vector_conocido (test_des.PruebasBloqueDES.test_descifrado_vector_conocido) ... ok
+test_longitudes_invalidas (test_des.PruebasBloqueDES.test_longitudes_invalidas) ... ok
+test_nucleo_e_intercambio_final (test_des.PruebasBloqueDES.test_nucleo_e_intercambio_final) ... ok
+test_paridad_no_cambia_cifrado (test_des.PruebasBloqueDES.test_paridad_no_cambia_cifrado) ... ok
+test_tipo_bytes_requerido (test_des.PruebasBloqueDES.test_tipo_bytes_requerido) ... ok
+test_bit_uno_es_el_mas_significativo (test_des.PruebasComponentesDES.test_bit_uno_es_el_mas_significativo) ... ok
+test_ejemplo_s1 (test_des.PruebasComponentesDES.test_ejemplo_s1) ... ok
+test_errores_de_permutacion (test_des.PruebasComponentesDES.test_errores_de_permutacion) ... ok
+test_expansion_sustitucion_y_funcion_f (test_des.PruebasComponentesDES.test_expansion_sustitucion_y_funcion_f) ... ok
+test_generacion_subclaves (test_des.PruebasComponentesDES.test_generacion_subclaves) ... ok
+test_ip_y_su_inversa (test_des.PruebasComponentesDES.test_ip_y_su_inversa) ... ok
+test_rotacion_circular (test_des.PruebasComponentesDES.test_rotacion_circular) ... ok
+test_salidas_sboxes_de_cuatro_bits (test_des.PruebasComponentesDES.test_salidas_sboxes_de_cuatro_bits) ... ok
+test_tablas_y_posiciones_de_paridad (test_des.PruebasComponentesDES.test_tablas_y_posiciones_de_paridad) ... ok
+test_una_ronda (test_des.PruebasComponentesDES.test_una_ronda) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.037s
+
+OK
