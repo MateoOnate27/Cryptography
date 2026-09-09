@@ -295,13 +295,3 @@ Throughput divides total attempts by total time. Speedup divides the sequential 
 Four processes reduced mean search time by approximately 39%. Parallel attempt counts vary with early stopping, so speedup describes time until recovery rather than a fixed amount of completed work in every run.
 
 At the best recorded rate, complete DES-56 traversal projects to approximately **768,455 years**. The expected search time is approximately **384,227 years**, assuming a uniform target position and a constant rate. These calculations describe the measured Python implementation and hardware. The project does not execute a complete DES-56 search or benchmark specialized hardware.
-
-## References
-
-- Cristhian Iza, *Data Encryption Standard (DES)*, Cryptography lecture slides, Yachay Tech University, September 2, 2026.
-- *Lab 1: Implementation of DES as a Symmetric-Cipher Library*, course laboratory handout.
-- *Lab 2: DES Modes of Operation and Brute-Force Cryptanalysis*, course laboratory handout.
-- National Institute of Standards and Technology, *Data Encryption Standard (DES)*, FIPS PUB 46-3, 1999.
-- Morris Dworkin, *Recommendation for Block Cipher Modes of Operation: Methods and Techniques*, NIST SP 800-38A, 2001.
-- Russell Housley, *Cryptographic Message Syntax (CMS)*, RFC 5652, Section 6.3, 2009.
-- Mateo Oñate, Laboratory 2 measurements: `benchmark.json`, `mediciones.csv`, and `resumen.csv`, September 9, 2026.
