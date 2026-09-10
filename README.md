@@ -259,27 +259,6 @@ python -m benchmarks.benchmark_bruteforce --bits 16 --repeticiones 3 --max-worke
 
 Completed repetitions remain saved. An interrupted repetition starts again. Always include `--bits 16` for this laboratory, since the general benchmark module also supports larger spaces.
 
-### 6. Generate the Report and Performance Graphs
-
-From `laboratorio2-des`:
-
-```bash
-python -m pip install -r requirements.txt
-python verificar.py
-python -m report.generar_informe --resultados results/mi_equipo/benchmark.json
-```
-
-The generator produces:
-
-- `report/Lab_2_DES.pdf`
-- `report/Guia_Lab2_DES.pdf`
-- `report/figuras/throughput.png`
-- `report/figuras/speedup.png`
-
-The PDF generator in this Python package produces the original Spanish report and study guide. The separately prepared English LaTeX report has its own source and compilation workflow.
-
-To plot a new benchmark, replace the JSON path with `results/nueva_medicion_16/benchmark.json`. This updates the generated report and figures to that dataset.
-
 ## Recorded Experimental Results
 
 The submitted 16 bit benchmark ran on an **Intel Core i3-1005G1**, with **2 physical cores**, **4 logical processors**, **Windows 10**, and **Python 3.12.7**. Each process configuration includes three repetitions with target candidate 65,535.
