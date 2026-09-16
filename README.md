@@ -26,17 +26,14 @@ The repository root contains this README and the three laboratory directories:
 | `laboratorio2-des/benchmarks/` | Repeated timing, hardware information, and performance calculations |
 | `laboratorio2-des/tests/` | DES, mode, attack, and metric tests |
 | `laboratorio2-des/results/` | Recorded measurements and experimental evidence |
-| `laboratorio2-des/report/` | Report generator and performance figures |
-| `laboratorio2-des/docs/` | Study guide, security answers, sources, and rubric mapping |
+| `laboratorio2-des/report/` | Technical Report and performance figures |
 | `laboratorio3-aes/aeslib/` | AES finite-field arithmetic, transformations, key expansion, and block cipher implementation |
 | `laboratorio3-aes/tests/` | 30 automatic tests, NIST vectors, round-trip checks, and benchmark validation |
 | `laboratorio3-aes/benchmarks/` | Performance benchmark, environment records, integrity checks, CSV export, and summaries |
 | `laboratorio3-aes/examples/` | Round traces and optional comparison with an external AES implementation |
 | `laboratorio3-aes/results/` | Validation evidence and complete benchmark datasets |
-| `laboratorio3-aes/report/` | Technical report, figures, report generator, and the exact dataset used by the report |
-| `laboratorio3-aes/docs/` | Study guide, sources, rubric mapping, and submission instructions |
+| `laboratorio3-aes/report/` | Technical report, figures, and the exact dataset used by the report |
 | `laboratorio3-aes/ejercicio1.py` to `ejercicio4.py` | Entry points for the four Laboratory 3 exercises |
-| `laboratorio3-aes/verificar_entrega.py` | Final package and evidence verification |
 | `README.md` | General architecture and execution guide |
 
 Each laboratory has its own working directory. Run its commands from that directory so Python resolves the corresponding modules.
@@ -428,22 +425,11 @@ To regenerate the report from the included reference measurements:
 python ejercicio4.py --results results/entorno_asistente/benchmark.json
 ```
 
-After collecting measurements on the student computer:
+After collecting measurements on the personal computer:
 
 ```bash
 python ejercicio4.py --results results/mi_equipo/benchmark.json
 ```
-
-The report step creates or updates:
-
-| Output | Purpose |
-|---|---|
-| `report/Lab_3_AES.pdf` | English technical report |
-| `report/Informe_Lab3_AES.md` | Editable report text |
-| `report/figuras/tiempos.png` and `.pdf` | Encryption and decryption time comparison |
-| `report/figuras/throughput.png` and `.pdf` | Throughput comparison |
-| `report/figuras/costo_rondas.png` and `.pdf` | Measured time ratios and round-count reference |
-| `report/resultados_usados.json` | Exact benchmark dataset supporting the generated report |
 
 The generator recalculates the tables and analysis from the selected benchmark file. It rejects incomplete result grids, inconsistent rates, failed recovery checks, or results that do not match the expected source version.
 
@@ -463,21 +449,6 @@ assert recovered == plaintext
 ```
 
 The block interface requires exactly 16 bytes. The bulk interface requires a length that is a multiple of 16, accepts empty input, and adds no padding.
-
-#### Verify the Laboratory 3 Delivery Package
-
-```bash
-python verificar_entrega.py
-```
-
-If a personal benchmark dataset was used to regenerate the report:
-
-```bash
-python verificar_entrega.py --results results/mi_equipo/benchmark.json
-```
-
-The project also includes `docs/GUIA_PASO_A_PASO.md`, `docs/RUBRICA.md`, `docs/FUENTES.md`, and `docs/ENTREGA.md` for theory, grading evidence, references, and submission steps.
-
 
 ## Laboratory 2 Recorded Experimental Results
 
@@ -518,12 +489,4 @@ For the 100 MB input, mean encryption times were 14.655 seconds for AES-128, 16.
 At 100 MB, the decryption/encryption time ratios were approximately 1.101 for AES-128, 1.116 for AES-192, and 1.119 for AES-256. In this implementation, InvMixColumns performs more table lookups per output byte than MixColumns, which contributes to the measured difference. The benchmark does not isolate that operation as a separate timing experiment.
 
 The reference dataset stores the source fingerprint, complete recovery checks, and SHA-256 records for every completed run. To replace these reference numbers with personal hardware results, run Exercise 3 with `--origin equipo-estudiante`, then regenerate the report with Exercise 4.
-
-## Laboratory 3 References
-
-1. Course handout, *Lab 3: AES Implementation and Evaluation*.
-2. NIST, *Advanced Encryption Standard (AES)*, FIPS 197-upd1, 2023.
-3. NIST, *FIPS 197*, 2001 edition, Appendix C, published AES-128, AES-192, and AES-256 examples.
-4. NIST, *AES Core Examples*, published four-block examples for each AES key size.
-5. `laboratorio3-aes/results/entorno_asistente/benchmark.json`, complete reference benchmark metadata and measurements.
 
