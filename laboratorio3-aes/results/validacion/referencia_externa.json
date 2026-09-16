@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "blocks_per_direction": 768,
+  "key_sizes": [
+    128,
+    192,
+    256
+  ],
+  "different_keys": 48,
+  "reference": "cryptography 46.0.0",
+  "source_sha256": "1149545a87b5d453a07c419a9508f973702511e417e34cce158d854a7090d1fc",
+  "created_utc": "2026-09-16T03:06:07.357588+00:00"
+}

@@ -1,0 +1,35 @@
+test_empty_and_multiple_blocks (tests.test_aes.CipherTests.test_empty_and_multiple_blocks) ... ok
+test_fips_128 (tests.test_aes.CipherTests.test_fips_128) ... ok
+test_fips_192 (tests.test_aes.CipherTests.test_fips_192) ... ok
+test_fips_256 (tests.test_aes.CipherTests.test_fips_256) ... ok
+test_invalid_blocks (tests.test_aes.CipherTests.test_invalid_blocks) ... ok
+test_invalid_key (tests.test_aes.CipherTests.test_invalid_key) ... ok
+test_nist_four_block_vectors (tests.test_aes.CipherTests.test_nist_four_block_vectors) ... ok
+test_random_round_trips_all_versions (tests.test_aes.CipherTests.test_random_round_trips_all_versions) ... ok
+test_all_byte_products (tests.test_aes.FieldTests.test_all_byte_products) ... ok
+test_lookup_products (tests.test_aes.FieldTests.test_lookup_products) ... ok
+test_published_examples (tests.test_aes.FieldTests.test_published_examples) ... ok
+test_sbox_from_mathematical_definition (tests.test_aes.FieldTests.test_sbox_from_mathematical_definition) ... ok
+test_fips_128_expansion (tests.test_aes.KeyScheduleTests.test_fips_128_expansion) ... ok
+test_fips_192_expansion (tests.test_aes.KeyScheduleTests.test_fips_192_expansion) ... ok
+test_fips_256_expansion_and_extra_subword (tests.test_aes.KeyScheduleTests.test_fips_256_expansion_and_extra_subword) ... ok
+test_lengths_and_original_key (tests.test_aes.KeyScheduleTests.test_lengths_and_original_key) ... ok
+test_word_operations (tests.test_aes.KeyScheduleTests.test_word_operations) ... ok
+test_add_round_key_is_own_inverse (tests.test_aes.TransformationTests.test_add_round_key_is_own_inverse) ... ok
+test_fips_first_round (tests.test_aes.TransformationTests.test_fips_first_round) ... ok
+test_inverse_pairs_and_input_range (tests.test_aes.TransformationTests.test_inverse_pairs_and_input_range) ... ok
+test_mix_columns_known_column (tests.test_aes.TransformationTests.test_mix_columns_known_column) ... ok
+test_state_layout_and_shift_rows (tests.test_aes.TransformationTests.test_state_layout_and_shift_rows) ... ok
+test_sub_bytes_known_state (tests.test_aes.TransformationTests.test_sub_bytes_known_state) ... ok
+test_bad_measurements (tests.test_benchmark.BenchmarkTests.test_bad_measurements) ... ok
+test_complete_grid (tests.test_benchmark.BenchmarkTests.test_complete_grid) ... ok
+test_deterministic_data_and_decimal_mb (tests.test_benchmark.BenchmarkTests.test_deterministic_data_and_decimal_mb) ... ok
+test_invalid_data_sizes (tests.test_benchmark.BenchmarkTests.test_invalid_data_sizes) ... ok
+test_missing_and_duplicate_runs (tests.test_benchmark.BenchmarkTests.test_missing_and_duplicate_runs) ... ok
+test_quick_run_not_final_report (tests.test_benchmark.BenchmarkTests.test_quick_run_not_final_report) ... ok
+test_summary_average_and_sample_deviation (tests.test_benchmark.BenchmarkTests.test_summary_average_and_sample_deviation) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.731s
+
+OK

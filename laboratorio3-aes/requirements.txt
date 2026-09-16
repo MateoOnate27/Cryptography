@@ -1,0 +1,3 @@
+# Solo para gráficas y el informe. El núcleo AES y sus 30 pruebas no los necesitan.
+matplotlib>=3.7,<4
+reportlab>=4,<5
