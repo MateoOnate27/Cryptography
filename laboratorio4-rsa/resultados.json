@@ -1,0 +1,613 @@
+{
+  "fecha_utc": "2026-09-23T19:37:05.858059+00:00",
+  "python": "3.12.7",
+  "sistema": "Windows-10-10.0.19045-SP0",
+  "procesador": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+  "pruebas_aprobadas": 21,
+  "recuperacion": [
+    {
+      "algoritmo": "Trial Division",
+      "p": 53,
+      "q": 61,
+      "iteraciones": 27,
+      "reinicios": 0,
+      "n": 3233,
+      "e": 17,
+      "phi": 3120,
+      "d": 2753,
+      "c": 2790,
+      "m": 65,
+      "verificado": true
+    },
+    {
+      "algoritmo": "Fermat",
+      "p": 53,
+      "q": 61,
+      "iteraciones": 1,
+      "reinicios": 0,
+      "n": 3233,
+      "e": 17,
+      "phi": 3120,
+      "d": 2753,
+      "c": 2790,
+      "m": 65,
+      "verificado": true
+    },
+    {
+      "algoritmo": "Pollard Rho",
+      "p": 53,
+      "q": 61,
+      "iteraciones": 6,
+      "reinicios": 0,
+      "n": 3233,
+      "e": 17,
+      "phi": 3120,
+      "d": 2753,
+      "c": 2790,
+      "m": 65,
+      "verificado": true
+    }
+  ],
+  "benchmark": {
+    "casos": [
+      {
+        "bits": 16,
+        "n": 47083,
+        "p": 197,
+        "q": 239
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "p": 991,
+        "q": 739
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "p": 3067,
+        "q": 4003
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "p": 15959,
+        "q": 16091
+      }
+    ],
+    "mediciones": [
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 9.2999980552122e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 99,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 8.800001523923129e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 99,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 8.699993486516178e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 99,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 1.6999983927235007e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 2,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 1.400003384333104e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 2,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 1.1999945854768157e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 2,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 6.499998562503606e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 6,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 5.500005499925464e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 6,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 5.200003215577453e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 6,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 2.2799998987466097e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 370,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 2.8200003725942224e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 370,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 2.1500003640539944e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 370,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 2.9000002541579306e-06,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 10,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 2.5999979698099196e-06,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 10,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 2.6999987312592566e-06,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 10,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 1.3600001693703234e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 14,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 1.340000017080456e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 14,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 1.340000017080456e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 14,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 0.00010009999823523685,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 1534,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 0.00013350000517675653,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 1534,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 0.00016630000027362257,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 1534,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 1.0899995686486363e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 32,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 1.0700001439545304e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 32,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 1.7899998056236655e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 32,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 1.7300000763498247e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 9,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 1.750000228639692e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 9,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 1.6999998479150236e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 9,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 0.0009950000021490268,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 7980,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 0.0012492999958340079,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 7980,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 0.0005416999993030913,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 7980,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 1.4999968698248267e-06,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 1,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 1.500004145782441e-06,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 1,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 1.4999968698248267e-06,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 1,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 0.00013420000323094428,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 114,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 0.00013310000213095918,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 114,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 0.0001343000039923936,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 114,
+        "reinicios": 0
+      }
+    ],
+    "resumen": [
+      {
+        "bits": 16,
+        "n": 47083,
+        "Trial Division media_s": 8.933331021883836e-06,
+        "Trial Division desviacion_s": 3.214559641441816e-07,
+        "Fermat media_s": 1.4333321208444734e-06,
+        "Fermat desviacion_s": 2.5166258228703423e-07,
+        "Pollard Rho media_s": 5.733335759335508e-06,
+        "Pollard Rho desviacion_s": 6.806829166173342e-07
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "Trial Division media_s": 2.416666878464942e-05,
+        "Trial Division desviacion_s": 3.552934004030679e-06,
+        "Fermat media_s": 2.7333323184090355e-06,
+        "Fermat desviacion_s": 1.5275368629826957e-07,
+        "Pollard Rho media_s": 1.3466667345104119e-05,
+        "Pollard Rho desviacion_s": 1.1547093308388454e-07
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "Trial Division media_s": 0.00013330000122853866,
+        "Trial Division desviacion_s": 3.310045420617435e-05,
+        "Fermat media_s": 1.3166665060756108e-05,
+        "Fermat desviacion_s": 4.100406121261773e-06,
+        "Pollard Rho media_s": 1.7266667176348467e-05,
+        "Pollard Rho desviacion_s": 2.516630641145001e-07
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "Trial Division media_s": 0.000928666665762042,
+        "Trial Division desviacion_s": 0.0003584334281422562,
+        "Fermat media_s": 1.4999992951440315e-06,
+        "Fermat desviacion_s": 4.200776087161108e-12,
+        "Pollard Rho media_s": 0.0001338666697847657,
+        "Pollard Rho desviacion_s": 6.658336929124967e-07
+      }
+    ]
+  },
+  "distancia": {
+    "mediciones": [
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "repeticion": 1,
+        "segundos": 2.3999964469112456e-06,
+        "iteraciones": 1
+      },
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "repeticion": 2,
+        "segundos": 2.1000014385208488e-06,
+        "iteraciones": 1
+      },
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "repeticion": 3,
+        "segundos": 1.6999983927235007e-06,
+        "iteraciones": 1
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "repeticion": 1,
+        "segundos": 0.004867299998295493,
+        "iteraciones": 12419
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "repeticion": 2,
+        "segundos": 0.0021063000021968037,
+        "iteraciones": 12419
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "repeticion": 3,
+        "segundos": 0.0021888999981456436,
+        "iteraciones": 12419
+      }
+    ],
+    "resumen": [
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "iteraciones": 1,
+        "media_s": 2.066665426051865e-06,
+        "desviacion_s": 3.511876795420882e-07
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "iteraciones": 12419,
+        "media_s": 0.0030541666662126468,
+        "desviacion_s": 0.001570762569507267
+      }
+    ]
+  }
+}

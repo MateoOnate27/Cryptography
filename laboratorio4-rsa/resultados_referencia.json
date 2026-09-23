@@ -1,0 +1,614 @@
+{
+  "fecha_utc": "2026-09-23T06:58:25.041564+00:00",
+  "python": "3.12.14",
+  "sistema": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "procesador": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "pruebas_aprobadas": 21,
+  "recuperacion": [
+    {
+      "algoritmo": "Trial Division",
+      "p": 53,
+      "q": 61,
+      "iteraciones": 27,
+      "reinicios": 0,
+      "n": 3233,
+      "e": 17,
+      "phi": 3120,
+      "d": 2753,
+      "c": 2790,
+      "m": 65,
+      "verificado": true
+    },
+    {
+      "algoritmo": "Fermat",
+      "p": 53,
+      "q": 61,
+      "iteraciones": 1,
+      "reinicios": 0,
+      "n": 3233,
+      "e": 17,
+      "phi": 3120,
+      "d": 2753,
+      "c": 2790,
+      "m": 65,
+      "verificado": true
+    },
+    {
+      "algoritmo": "Pollard Rho",
+      "p": 53,
+      "q": 61,
+      "iteraciones": 6,
+      "reinicios": 0,
+      "n": 3233,
+      "e": 17,
+      "phi": 3120,
+      "d": 2753,
+      "c": 2790,
+      "m": 65,
+      "verificado": true
+    }
+  ],
+  "benchmark": {
+    "casos": [
+      {
+        "bits": 16,
+        "n": 47083,
+        "p": 197,
+        "q": 239
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "p": 991,
+        "q": 739
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "p": 3067,
+        "q": 4003
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "p": 15959,
+        "q": 16091
+      }
+    ],
+    "mediciones": [
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 3.5440002648101654e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 99,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 3.496999852359295e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 99,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 3.252999704272952e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 99,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 1.2730001799354795e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 2,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 9.300001693191007e-07,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 2,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 8.140000318235252e-07,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 2,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 4.443999841896584e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 6,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 3.949000074499054e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 6,
+        "reinicios": 0
+      },
+      {
+        "bits": 16,
+        "n": 47083,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 3.6320002436696086e-06,
+        "p": 197,
+        "q": 239,
+        "iteraciones": 6,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 1.5225999959511682e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 370,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 1.4975999874877743e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 370,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 1.4838999959465582e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 370,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 2.1470000319823157e-06,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 10,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 1.9290000636829063e-06,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 10,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 1.8699997781368438e-06,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 10,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 1.0261000170430634e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 14,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 9.806999969441677e-06,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 14,
+        "reinicios": 0
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 1.1193999853276182e-05,
+        "p": 739,
+        "q": 991,
+        "iteraciones": 14,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 7.654199998796685e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 1534,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 6.89429998601554e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 1534,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 7.27460001144209e-05,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 1534,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 5.194000095798401e-06,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 32,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 4.482999884203309e-06,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 32,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 4.223999894747976e-06,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 32,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 7.300999641302042e-06,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 9,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 7.39799997973023e-06,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 9,
+        "reinicios": 0
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 7.0570004027104005e-06,
+        "p": 3067,
+        "q": 4003,
+        "iteraciones": 9,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Trial Division",
+        "repeticion": 1,
+        "segundos": 0.00037909000002400717,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 7980,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Trial Division",
+        "repeticion": 2,
+        "segundos": 0.00036427899976843037,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 7980,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Trial Division",
+        "repeticion": 3,
+        "segundos": 0.0003577379998205288,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 7980,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Fermat",
+        "repeticion": 1,
+        "segundos": 9.63999809755478e-07,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 1,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Fermat",
+        "repeticion": 2,
+        "segundos": 9.069999578059651e-07,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 1,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Fermat",
+        "repeticion": 3,
+        "segundos": 8.09999619377777e-07,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 1,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 1,
+        "segundos": 9.56920002863626e-05,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 114,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 2,
+        "segundos": 0.00011775899974963977,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 114,
+        "reinicios": 0
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "algoritmo": "Pollard Rho",
+        "repeticion": 3,
+        "segundos": 9.296700000049896e-05,
+        "p": 15959,
+        "q": 16091,
+        "iteraciones": 114,
+        "reinicios": 0
+      }
+    ],
+    "resumen": [
+      {
+        "bits": 16,
+        "n": 47083,
+        "Trial Division media_s": 3.4313332738141375e-06,
+        "Trial Division desviacion_s": 1.5621909682114286e-07,
+        "Fermat media_s": 1.0056667936927017e-06,
+        "Fermat desviacion_s": 2.3867208157799007e-07,
+        "Pollard Rho media_s": 4.008333386688416e-06,
+        "Pollard Rho desviacion_s": 4.092385225412103e-07
+      },
+      {
+        "bits": 20,
+        "n": 732349,
+        "Trial Division media_s": 1.501366659795167e-05,
+        "Trial Division desviacion_s": 1.9623031501087263e-07,
+        "Fermat media_s": 1.981999957934022e-06,
+        "Fermat desviacion_s": 1.459075966171263e-07,
+        "Pollard Rho media_s": 1.042066666438283e-05,
+        "Pollard Rho desviacion_s": 7.071507699263808e-07
+      },
+      {
+        "bits": 24,
+        "n": 12277201,
+        "Trial Division media_s": 7.274366665418104e-05,
+        "Trial Division desviacion_s": 3.7995006013155373e-06,
+        "Fermat media_s": 4.633666624916562e-06,
+        "Fermat desviacion_s": 5.022454057304379e-07,
+        "Pollard Rho media_s": 7.252000007914224e-06,
+        "Pollard Rho desviacion_s": 1.757011694213531e-07
+      },
+      {
+        "bits": 28,
+        "n": 256796269,
+        "Trial Division media_s": 0.00036703566653765546,
+        "Trial Division desviacion_s": 1.0939670330030407e-05,
+        "Fermat media_s": 8.936664623130733e-07,
+        "Fermat desviacion_s": 7.786110219895597e-08,
+        "Pollard Rho media_s": 0.00010213933334550045,
+        "Pollard Rho desviacion_s": 1.359547316469487e-05
+      }
+    ]
+  },
+  "distancia": {
+    "mediciones": [
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "repeticion": 1,
+        "segundos": 1.1160000212839805e-06,
+        "iteraciones": 1
+      },
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "repeticion": 2,
+        "segundos": 9.739997040014714e-07,
+        "iteraciones": 1
+      },
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "repeticion": 3,
+        "segundos": 8.369997885893099e-07,
+        "iteraciones": 1
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "repeticion": 1,
+        "segundos": 0.0016155640000761196,
+        "iteraciones": 12419
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "repeticion": 2,
+        "segundos": 0.0016195540001717745,
+        "iteraciones": 12419
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "repeticion": 3,
+        "segundos": 0.0018229269999210373,
+        "iteraciones": 12419
+      }
+    ],
+    "resumen": [
+      {
+        "caso": "cercanos",
+        "bits": 28,
+        "n": 201696779,
+        "p": 14197,
+        "q": 14207,
+        "distancia": 10,
+        "iteraciones": 1,
+        "media_s": 9.756665046249207e-07,
+        "desviacion_s": 1.395075844861448e-07
+      },
+      {
+        "caso": "separados",
+        "bits": 28,
+        "n": 201330583,
+        "p": 4099,
+        "q": 49117,
+        "distancia": 45018,
+        "iteraciones": 12419,
+        "media_s": 0.0016860150000563106,
+        "desviacion_s": 0.00011858605232239607
+      }
+    ]
+  },
+  "origen": "Entorno del asistente. No son mediciones del equipo del estudiante."
+}
